@@ -1,0 +1,348 @@
+*{
+    color: white;
+    margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    box-shadow: inset;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 5px;
+    margin-bottom: 5px;
+    margin: 0px; */
+}
+
+.spotifyicon{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color:white;
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: xx-large;
+    padding-left: 2%;
+    border-radius: 2px solid black;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.home{
+    background-color: #1f1f1f;
+    height: 2.7rem;
+    width: 3rem;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: -15%;
+}
+.home:hover{
+    background-color: white;
+    transition-duration:.5s;
+
+}
+
+.searchbar{
+    background-color: #1f1f1f;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    height: 3rem;
+    width: 31vw;
+    border-radius: 26px;
+    margin-left: 19%;
+
+}
+.glass{
+    height: 5vh;
+    width: 10%;
+    font-size:25px;
+    font-weight:lighter;
+    box-shadow: inset;
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 24px 0 0 24px;
+    padding-left: 11px;
+}
+
+.type{
+    height: 3rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    box-shadow: inset;
+    background-color: #1f1f1f;
+}
+
+.browse{
+    height: 3rem;
+    width: 9%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px 0 0 24px;
+    font-size: x-large;
+    box-shadow:inset;
+    padding-right: -1%;
+}
+
+.signup{
+    background-color: transparent;
+    height: 3rem;
+    width: 7vw;
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    margin-right: 2vw;
+    font-weight: bold;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -50%;
+    border-radius: 30px;
+    
+}
+.signup:hover{
+    color: white;
+    transition-duration: .5s;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 600;
+    border: 2px solid white;
+    height: 3rem;
+    width: 7vw;
+    border-radius: 32px;
+}
+
+main{
+    display: flex;
+}
+                                
+.leftside{
+    background-color: #0f0f0f;
+    width: 25%;
+    padding: 20px;
+    height: 80vh;
+    border-radius:10px; 
+    margin: 5px;
+    margin-top:0px;
+}
+
+.library{
+    display: flex;
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+   background-color: transparent;
+   color: #b3b3b3;
+}
+
+.librarylogo{
+    font-size: large;
+    background-color: transparent;
+    margin-left: 5%;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: 50%;
+    padding-right:5px;
+}
+
+
+.name:hover{
+    color: rgb(28, 17, 221);
+}
+
+.subleft{
+    margin-right: 6%;
+    margin-left: -2.5%;
+    margin-top: 8%;
+    background-color: #0f0f0f;
+
+}
+.div1{
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     height: 100px;
+     width: 100%;
+     padding: 5%;
+     border-radius: 10px;
+ 
+}
+
+.div2{
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 5%; 
+    border-radius: 5%;
+    margin-top: 8%;
+}
+
+.leftsidebutton1{
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 32px;
+    width: 130px;
+    border: 1px solid white;
+}
+
+.line1{
+    font-size:18px;
+    background-color: transparent;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.line2{
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 540;
+}
+
+.line3{
+    background-color: transparent;
+    border-radius: 0 px solid white;
+}
+
+
+.leftfooter{
+    margin: 1%;
+    padding-top: 75px;
+    font-size:x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3b3b3;
+}
+
+.leftfooter1{
+    display: flex;
+    margin-bottom: 5%;
+    gap: 13px;
+}
+.leftfooter2{
+    display: flex;
+    gap: 13px;
+}
+
+.cookies{
+    padding-top: 4.5%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 535;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    gap: 5px;
+  margin-top: 10%;
+  color: white;
+  background-color: transparent;
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  border: .5px solid #b3b3b3;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+                                                 Right site 
+
+.fullright{
+    height: 1000px;
+    padding-left: 5px;
+    
+}
+.rightside{
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 75%;
+    height: 100vh;
+    border-radius:18px;
+
+}
+
+.upper{
+    width: 99%;
+    height: 2%;
+    background-color:#0f0f0f;
+    padding-top: 45px;
+    font-size:x-large;
+    font-weight: bold;
+    padding-left: 1.5%;
+}
+.lower{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0f0f0f;
+    width: 100%;
+    padding: 5px;
+}
+
+.box{
+    height: 118px;
+    width: 20.4%;
+    border:1px solid rgb(177, 24, 131);
+    border-radius: 5%;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin:1%;
+}
+
+
+.innerbox{
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    margin-left: 55%;
+    rotate:calc(28deg);
+}
