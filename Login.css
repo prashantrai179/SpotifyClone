@@ -1,0 +1,115 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maindiv{
+    height: 1000px;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 30, 30);
+}
+.container{
+    background-color: #121212;
+    height: 100vh;
+    width: 49%;
+   margin:1.7% ;
+   border-radius: 10px;
+    
+}
+
+.logo{
+    height: 8vh;
+    width: 8vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color:white;
+    margin:  4%;
+    margin-top: 2%;
+    font-size: 37px;
+    padding-left: 37.5%;
+    background-color: transparent;
+}
+
+.written{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    margin-top: -30px;
+    color: white;
+    font-weight: 740;
+}
+
+.continuewith{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 32px;
+   gap: 8px;
+}
+
+.innermatter{
+   background-color: #121212;
+    height:25px;
+    width: 21vw;
+    border-radius: 30px;
+    border: 1px solid #7c7c7c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8%;
+    margin-right: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.innermatter:hover{
+    border: 1px solid #ffffff;
+}
+
+button{
+    border-style:calc(30%);
+    border-radius: 30px;
+    border: 1px solid #b2b2b2;
+
+}
+
+.setinnermatter{
+    margin-right: 10%;
+}
+.Googlelogo{
+    background: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.3rem;
+    margin-right:15% ;
+    text-decoration: none;
+}
+
+.Fblogo{
+    color: white;
+    font-size:1.3rem ;
+    margin-right: 7%;
+    text-decoration: none;
+}
+
+.Applelogo{
+    font-size:1.5rem;
+    margin-right:19% ;
+    text-decoration: none;
+}
+
+hr{
+    margin: 5%;
+    width: 72%;
+    border: 1px solid #2a2a2a;
+}

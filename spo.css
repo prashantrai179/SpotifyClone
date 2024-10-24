@@ -121,11 +121,12 @@ header{
     justify-content: center;
     margin-right: -50%;
     border-radius: 30px;
-    
+    cursor: pointer;
 }
 .signup:hover{
     color: white;
     transition-duration: .5s;
+    
 }
 
 .login{
@@ -142,6 +143,11 @@ header{
     height: 3rem;
     width: 7vw;
     border-radius: 32px;
+    cursor: pointer;
+}
+
+.login:hover{
+  transition: font-size 2s ease-in-out 1s;
 }
 
 main{
@@ -172,6 +178,7 @@ main{
     font-size: large;
     background-color: transparent;
     margin-left: 5%;
+    color: #b61616;
 }
 
 .name{
@@ -180,11 +187,17 @@ main{
     background-color: transparent;
     margin-right: 50%;
     padding-right:5px;
+    color: #7c7c7c;
 }
 
 
 .name:hover{
-    color: rgb(28, 17, 221);
+    color: white;
+}
+
+.plus:hover{
+   background-color: #1f1f1f;
+   border-radius: 50%;
 }
 
 .subleft{
@@ -261,6 +274,7 @@ main{
     margin-bottom: 5%;
     gap: 13px;
 }
+
 .leftfooter2{
     display: flex;
     gap: 13px;
